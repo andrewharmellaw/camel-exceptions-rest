@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    compile     group: 'com.capgemini', name:'camel-exceptions-core', version: '0.9.0-SNAPSHOT'
+    compile     group: 'com.capgemini', name:'camel-exceptions-core', version: '0.9.0'
 }
 
 bintray {
