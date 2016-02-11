@@ -1,0 +1,14 @@
+group 'com.capgemini'
+version '0.9.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile     group: 'com.capgemini', name:'camel-exceptions-core', version: '0.9.0-SNAPSHOT'
+}
