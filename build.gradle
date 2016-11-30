@@ -10,6 +10,9 @@ apply plugin: 'maven'
 repositories {
     mavenLocal()
     mavenCentral()
+    maven {
+        url 'http://https://dl.bintray.com/capgeminiuk/maven'
+    }
 }
 
 dependencies {
